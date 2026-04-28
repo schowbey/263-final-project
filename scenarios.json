@@ -1,47 +1,180 @@
 {
-  "pronouns": {
-    "he": { "subject": "he", "object": "him", "possessive": "his", "reflexive": "himself" },
-    "she": { "subject": "she", "object": "her", "possessive": "her", "reflexive": "herself" },
-    "they": { "subject": "they", "object": "them", "possessive": "their", "reflexive": "themselves" }
-  },
   "scenarios": [
-    {"template": "{subject} is stuck in traffic during rush hour."},
-    {"template": "{subject} went to the cafe to talk to {possessive} friend."}, 
-    {"template": "{subject} fell down the stairs and scraped {possessive} knee."},
-    {"template": "{subject} saw a ghost in {possessive} attic."},
-    {"template": "{subject} is trying to get in shape but keeps getting injured."},
-    {"template": "{subject} is trying to cook dinner, but it's burning."},
-    {"template": "{subject} went outside only to find out it was raining."},
-    {"template": "{subject} found {possessive} lost keys in the garage."},
-    {"template": "{subject} went outside only to find out it was raining."},
-    {"template": "{subject} crashed the car into a tree."},
-    {"template": "{subject} is trying to fix the leaky faucet."},
-    {"template": "Despite the traffic light turning red, {subject} sped through the intersection."},
-    {"template": "After a 12-hour shift, {subject} stopped by the grocery store."},
-    {"template": "On {possessive} way home, {subject} thought someone might be following {object}."},
-    {"template": "Instead of cooking breakfast, {subject} decided to sleep in."},
-    {"template": "{subject} forgot to pick up {possessive} child from school."},
-    {"template": "{possessive} hands shook as {subject} stood in front of the podium."},
-    {"template": "{possessive} boss called {object} in for a one-on-one meeting."},
-    {"template": "{subject} spent the day reading books instead of studying for the exam."},
-    {"template": "When {subject} woke up, {subject} was too nauseous to eat."},
-    {"template": "{subject} missed the deadline."},
-    {"template": "{subject} had been practicing for weeks, but during the performance, {subject} forgot what to do."},
-    {"template": "{subject} opened the message and read it twice. {subject} didn’t know how to respond."},
-    {"template": "{subject} spent the entire day preparing for the meeting, going over every detail. When it finally happened, no one seemed interested in what {subject} had to say."},
-    {"template": "{subject} noticed {possessive} friends had gone out without inviting {object}."},
-    {"template": "{subject} finally got the job offer {subject} had been waiting for, but it meant moving far away from everyone {subject} knew."},
-    {"template": "{subject} broke the chair after sitting in it."},
-    {"template": "{subject} raised {possessive} voice during the argument, then immediately went quiet and avoided eye contact."},
-    {"template": "{subject} kept thinking about what had happened earlier that day, replaying every detail and wondering if {subject} could have handled things differently. It was hard for {object} to let it go."},
-    {"template": "{subject} studied all night but still failed the final exam."},
-    {"template": "{subject} received an unexpected promotion at work."},
-    {"template": "{subject} were publicly criticized during a team meeting."},
-    {"template": "{subject} found out their close friend had been lying to them."},
-    {"template": "{subject} won first place in a major competition."},
-    {"template": "{subject} were ignored by everyone at a social gathering."},
-    {"template": "{subject} accidentally broke something valuable at a store."},
-    {"template": "{subject} helped a stranger who was in serious trouble."},
-    {"template": "{subject} got stuck in traffic and missed an important interview."}
+    {
+      "he": "He is stuck in traffic during rush hour.",
+      "she": "She is stuck in traffic during rush hour.",
+      "they": "They are stuck in traffic during rush hour."
+    },
+    {
+      "he": "He went to the cafe to talk to his friend.",
+      "she": "She went to the cafe to talk to her friend.",
+      "they": "They went to the cafe to talk to their friend."
+    },
+    {
+      "he": "He fell down the stairs and scraped his knee.",
+      "she": "She fell down the stairs and scraped her knee.",
+      "they": "They fell down the stairs and scraped their knee."
+    },
+    {
+      "he": "He saw a ghost in his attic.",
+      "she": "She saw a ghost in her attic.",
+      "they": "They saw a ghost in their attic."
+    },
+    {
+      "he": "He is trying to get in shape but keeps getting injured.",
+      "she": "She is trying to get in shape but keeps getting injured.",
+      "they": "They are trying to get in shape but keep getting injured."
+    },
+    {
+      "he": "He is trying to cook dinner, but it's burning.",
+      "she": "She is trying to cook dinner, but it's burning.",
+      "they": "They are trying to cook dinner, but it's burning."
+    },
+    {
+      "he": "He went outside only to find out it was raining.",
+      "she": "She went outside only to find out it was raining.",
+      "they": "They went outside only to find out it was raining."
+    },
+    {
+      "he": "He found his lost keys in the garage.",
+      "she": "She found her lost keys in the garage.",
+      "they": "They found their lost keys in the garage."
+    },
+    {
+      "he": "He crashed the car into a tree.",
+      "she": "She crashed the car into a tree.",
+      "they": "They crashed the car into a tree."
+    },
+    {
+      "he": "He is trying to fix the leaky faucet.",
+      "she": "She is trying to fix the leaky faucet.",
+      "they": "They are trying to fix the leaky faucet."
+    },
+    {
+      "he": "Despite the traffic light turning red, he sped through the intersection.",
+      "she": "Despite the traffic light turning red, she sped through the intersection.",
+      "they": "Despite the traffic light turning red, they sped through the intersection."
+    },
+    {
+      "he": "After a 12-hour shift, he stopped by the grocery store.",
+      "she": "After a 12-hour shift, she stopped by the grocery store.",
+      "they": "After a 12-hour shift, they stopped by the grocery store."
+    },
+    {
+      "he": "On his way home, he thought someone might be following him.",
+      "she": "On her way home, she thought someone might be following her.",
+      "they": "On their way home, they thought someone might be following them."
+    },
+    {
+      "he": "He forgot to pick up his child from school.",
+      "she": "She forgot to pick up her child from school.",
+      "they": "They forgot to pick up their child from school."
+    },
+    {
+      "he": "His hands shook as he stood in front of the podium.",
+      "she": "Her hands shook as she stood in front of the podium.",
+      "they": "Their hands shook as they stood in front of the podium."
+    },
+    {
+      "he": "His boss called him in for a one-on-one meeting.",
+      "she": "Her boss called her in for a one-on-one meeting.",
+      "they": "Their boss called them in for a one-on-one meeting."
+    },
+    {
+      "he": "He spent the day reading books instead of studying for the exam.",
+      "she": "She spent the day reading books instead of studying for the exam.",
+      "they": "They spent the day reading books instead of studying for the exam."
+    },
+    {
+      "he": "When he woke up, he was too nauseous to eat.",
+      "she": "When she woke up, she was too nauseous to eat.",
+      "they": "When they woke up, they were too nauseous to eat."
+    },
+    {
+      "he": "He missed the deadline.",
+      "she": "She missed the deadline.",
+      "they": "They missed the deadline."
+    },
+    {
+      "he": "He had been practicing for weeks, but during the performance, he forgot what to do.",
+      "she": "She had been practicing for weeks, but during the performance, she forgot what to do.",
+      "they": "They had been practicing for weeks, but during the performance, they forgot what to do."
+    },
+    {
+      "he": "He opened the message and read it twice. He didn’t know how to respond.",
+      "she": "She opened the message and read it twice. She didn’t know how to respond.",
+      "they": "They opened the message and read it twice. They didn’t know how to respond."
+    },
+    {
+      "he": "He spent the entire day preparing for the meeting, going over every detail. When it finally happened, no one seemed interested in what he had to say.",
+      "she": "She spent the entire day preparing for the meeting, going over every detail. When it finally happened, no one seemed interested in what she had to say.",
+      "they": "They spent the entire day preparing for the meeting, going over every detail. When it finally happened, no one seemed interested in what they had to say."
+    },
+    {
+      "he": "He finally got the job offer he had been waiting for, but it meant moving far away from everyone he knew.",
+      "she": "She finally got the job offer she had been waiting for, but it meant moving far away from everyone she knew.",
+      "they": "They finally got the job offer they had been waiting for, but it meant moving far away from everyone they knew."
+    },
+    {
+      "he": "He broke the chair after sitting in it.",
+      "she": "She broke the chair after sitting in it.",
+      "they": "They broke the chair after sitting in it."
+    },
+    {
+      "he": "He raised his voice during the argument, then immediately went quiet and avoided eye contact.",
+      "she": "She raised her voice during the argument, then immediately went quiet and avoided eye contact.",
+      "they": "They raised their voice during the argument, then immediately went quiet and avoided eye contact."
+    },
+    {
+      "he": "He kept thinking about what had happened earlier that day, replaying every detail and wondering if he could have handled things differently. It was hard for him to let it go.",
+      "she": "She kept thinking about what had happened earlier that day, replaying every detail and wondering if she could have handled things differently. It was hard for her to let it go.",
+      "they": "They kept thinking about what had happened earlier that day, replaying every detail and wondering if they could have handled things differently. It was hard for them to let it go."
+
+    },
+    {
+      "he": "He studied all night but still failed the final exam.",
+      "she": "She studied all night but still failed the final exam.",
+      "they": "They studied all night but still failed the final exam."
+    },
+    {
+      "he": "He received an unexpected promotion at work.",
+      "she": "She received an unexpected promotion at work.",
+      "they": "They received an unexpected promotion at work."
+    },
+    {
+      "he": "He was publicly criticized during a team meeting.",
+      "she": "She was publicly criticized during a team meeting.",
+      "they": "They were publicly criticized during a team meeting."
+    },
+    {
+      "he": "He found out their close friend had been lying to them.",
+      "she": "She found out their close friend had been lying to them.",
+      "they": "They found out their close friend had been lying to them."
+    },
+    {
+      "he": "He won first place in a major competition.",
+      "she": "She won first place in a major competition.",
+      "they": "They won first place in a major competition."
+    },
+    {
+      "he": "He was ignored by everyone at a social gathering.",
+      "she": "She was ignored by everyone at a social gathering.",
+      "they": "They were ignored by everyone at a social gathering."
+    },
+    {
+      "he": "He accidentally broke something valuable at a store.",
+      "she": "She accidentally broke something valuable at a store.",
+      "they": "They accidentally broke something valuable at a store."
+    },
+    {
+      "he": "He helped a stranger who was in serious trouble.",
+      "she": "She helped a stranger who was in serious trouble.",
+      "they": "They helped a stranger who was in serious trouble."
+    },
+    {
+      "he": "He got stuck in traffic and missed an important interview.",
+      "she": "She got stuck in traffic and missed an important interview.",
+      "they": "They got stuck in traffic and missed an important interview."
+    }
   ]
 }
